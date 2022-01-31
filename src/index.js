@@ -10,8 +10,8 @@ import './index.css';
 
 ReactDOM.render(
     // <GifExpertApp />,
-    <TodoApp />,
-    // <HeroesApp />,
+    // <TodoApp />,
+    <HeroesApp />,
   document.getElementById('root')
 );
 
