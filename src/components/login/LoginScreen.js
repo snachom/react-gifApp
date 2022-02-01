@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../../auth/authContext';
-import { types } from '../../../types/types';
+import { AuthContext } from '../../auth/authContext';
+import { types } from '../../types/types';
 import './login.css';
 
 export const LoginScreen = () => {

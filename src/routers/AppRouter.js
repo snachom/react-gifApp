@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 import { DashboardRoutes } from './DashboardRoutes';
-import { LoginScreen } from '../components/hero-component/login/LoginScreen';
+import { LoginScreen } from '../components/login/LoginScreen';
 
 export const AppRouter = () => {
   return (

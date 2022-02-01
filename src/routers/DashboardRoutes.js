@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import { Navbar } from '../components/hero-component/ui/Navbar';
+import { Navbar } from '../components/navbar/ui/Navbar';
 import { HeroScreen } from "../components/hero-component/hero/HeroScreen";
 import { DcScreen } from '../components/hero-component/dc/DcScreen';
 import { MarvelScreen } from '../components/hero-component/marvel/MarvelScreen';
 import { SearchScreen } from '../components/hero-component/search/SearchScreen';
+import { HomeScreen } from "../pages/HomeScreen";
 
 export const DashboardRoutes = () => {
   return (
@@ -18,7 +19,7 @@ export const DashboardRoutes = () => {
           <Route path="search" element={<SearchScreen />} />
           <Route path="hero/:heroId" element={<HeroScreen />} />
 
-          <Route path="/" element={<MarvelScreen />} />
+          <Route path="/" element={<HomeScreen />} />
 
         </Routes>
       </div>
